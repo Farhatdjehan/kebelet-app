@@ -1,0 +1,17 @@
+@import "./../../../styles/variables";
+
+.topWrap {
+  margin-bottom: 24px;
+  .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: $black-primary;
+  }
+  .subtitle {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: $black-fade;
+  }
+}

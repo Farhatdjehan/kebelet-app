@@ -1,0 +1,58 @@
+@import "./../../../styles/variables";
+
+.itemPlace {
+  padding: 16px 18px;
+  background-color: $white-secondary;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  display: flex;
+  margin-bottom: 16px;
+  .ratingBox {
+    background-color: $blue-primary;
+    border-radius: $border-radius-half;
+    width: 65px;
+    height: 65px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .rating {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 32px;
+      color: $white-secondary;
+      margin-bottom: 4px;
+    }
+    .text {
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 8px;
+      color: $white-secondary;
+    }
+  }
+  .infoPlaceWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .distance {
+      font-weight: 600;
+      font-size: 8px;
+      line-height: 12px;
+      color: $black-fade;
+      margin-bottom: 1px;
+    }
+    .place {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: $black-primary;
+    }
+    .loc {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 15px;
+      color: $black-fade;
+    }
+  }
+}
