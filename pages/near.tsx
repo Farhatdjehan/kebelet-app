@@ -7,7 +7,7 @@ export default function Near() {
     <DashboardLayout pageTitle="Near" fullMode={false}>
       <TopMenu title="Terdekat" subtitle="Lorem ipsum" />
       {[...Array(5)].map((value, index) => {
-        return <NearPlace />;
+        return <NearPlace key={index} />;
       })}
     </DashboardLayout>
   );
